@@ -20,6 +20,11 @@
   text-align: center;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+
 .nav a {
   font-weight: 400;
   color: #32174D;
