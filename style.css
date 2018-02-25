@@ -20,11 +20,6 @@
   text-align: center;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-
 .nav a {
   font-weight: 400;
   color: #32174D;
@@ -201,12 +196,16 @@
   position: absolute;
   top: 25vh;
   width: 100%;
-  font-style: italic;
   font-size: 11vw;
   font-weight: 400;
-  color: #32174D;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Krona One', sans-serif;
   text-align: center;
+}
+
+.intro font {
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 60%, rgba(255,255,255,0) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .intro p {
@@ -221,26 +220,6 @@
   font-family: 'Droid Serif', serif;
 }
 
-.intro a {
-  position: relative;
-  width: 100%;
-  bottom: 10vh;
-  border: solid .2vh;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  font-weight: 400;
-  font-style: normal;
-  color: #32174D;
-  font-size: 1.7vh;
-  font-family: 'Numans', sans-serif;
-  text-align: center;
-}
-
-.intro a:link {
-  text-decoration:none;
-}
 
 .navcode a {
   position: absolute;
@@ -634,12 +613,12 @@
 }
 
 .soon img {
-	width: 101px;
-	height: 175px;
-	background: url('http://payload308.cargocollective.com/1/6/208850/8471571/Bonnie-Ani-2-04.png') bottom;
-	text-indent: -99999px;
+  width: 101px;
+  height: 175px;
+  background: url('http://payload308.cargocollective.com/1/6/208850/8471571/Bonnie-Ani-2-04.png') bottom;
+  text-indent: -99999px;
 }
 
 .soon img:hover {
-	background-position: 0 0;
+  background-position: 0 0;
 }
