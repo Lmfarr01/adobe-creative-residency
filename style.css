@@ -197,6 +197,19 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.intro p.mobile {
+  display: none;
+  position: relative;
+  width: 100%;
+  top: 5vh;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 3vh;
+  line-height: 120%;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+
 /* intro hover */
 
 .navcode a {
@@ -536,4 +549,27 @@ img.content5 {
 .navcode7 a {
   position: absolute;
   top: 300vh;
+}
+
+
+/* in-progress media query */
+
+@media only screen and (max-width: 1020px) {
+  #section1, #section2, #section3, div.container, font, .intro p, span.arrow {
+    display: none;
+  }
+  
+  #sectionx {
+    background: #ffffff;
+  }
+  
+  .intro {
+    top: 5vh;
+  }
+  
+  .intro p.mobile {
+    display: block;
+    top: 4vh;
+  }
+
 }
